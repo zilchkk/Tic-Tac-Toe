@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --btn-color: #DA0037;
+  --primary-background-color: #ec2939;
+  --color-btn: #ffd1d1;
+  --color: #ede4e0;
+  --h1-color: #DAE2B6;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom right, #fc5c7d, #6a82fb);
+  color: white;
+  font-family: var(--font-family);
+  margin: 0;
+
+}
+
+.Container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Game {
+  width: 60vmin;
+  height: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.Game-Btn {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  color: var(--btn-color);
+  font-size: 8vmin;
+  background-color: var(--color-btn);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.Game-Btn:hover {
+  background: linear-gradient(to bottom right, #f77062, #fe5196);
+  transform: scale(1.05);
+}
+/* .Share-Code {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-btn);
+} */
+.Reset-Btn {
+  margin-top: 1rem;
+  color: var(--color-btn);
+  font-size: 3vmin;
+  padding: 2vmin;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #f77062, #fe5196);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.Reset-Btn:hover {
+  background: linear-gradient(to bottom right, #f77062, #fe5196);
+  transform: scale(1.05);
+}
+/* .Code-Shared {
+  border: none;
+  width: 40vmin;
+  height: 18vmin;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 0.5rem;
+} */
+/* label{
+    outline: none;
+} */
+/* h1{
+    color: var(--h1-color);
+} */
+
+#new-Btn{
+  margin-top: 1rem;
+  color: var(--color-btn);
+  font-size: 3vmin;
+  padding: 2vmin;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #f77062, #fe5196);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+#new-Btn:hover {
+  background: linear-gradient(to bottom right, #f77062, #fe5196);
+  transform: scale(1.05);
+}
+
+#msg{
+  font-size: 5vmin;
+  color: var(--color-btn);
+}
+
+.msg-Container{
+  height: 100vmin;
+  flex-direction:column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.hide{
+  display: none;
+}
